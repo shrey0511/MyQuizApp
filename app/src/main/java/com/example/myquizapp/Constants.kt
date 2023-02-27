@@ -1,6 +1,11 @@
 package com.example.myquizapp
 
 object Constants {
+
+    const val UserName:String="user_name"
+    const val TotalQuestions:String="total_questions"
+    const val CorrectAnswers:String="correct_answers"
+
     fun getQuestions():ArrayList<Question>{
         val questionList=ArrayList<Question>()
 
@@ -8,7 +13,7 @@ object Constants {
             1,"What is the name of this Character ?",
             R.drawable.images,
             "Neji Hyuga","Itachi Uchia","Naruto Uzumaki","Kurama",
-            1
+            3
         )
         questionList.add(ques1)
 
